@@ -1,0 +1,4 @@
+baseURL = 'https://blog.lephuocthanh.id.vn/'
+languageCode = 'en-us'
+title = 'Le Phuoc Thanh Devops Blog'
+theme = 'ananke'
