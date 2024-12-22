@@ -1,33 +1,38 @@
-# Kubernetes Cluster Setup with Kubeadm
+---
+title: "Introduction to Kubernetes"
+date: 2024-12-22T11:30:03+00:00
+tags: ["Kubernetes", "Container Orchestration", "DevOps"]
+author: "Thanhlp"
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "A beginner's guide to Kubernetes, container orchestration, and how to get started."
+canonicalURL: "https://blogs.lephuocthanh.id.vn/kubernetes-introduction"
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+  image: "https://example.com/k8s-cover.jpg"
+  alt: "Kubernetes Logo"
+  caption: "Kubernetes - Container Orchestration"
+  relative: false
+  hidden: false
+editPost:
+  URL: "https://github.com/thanhlp/blogs/tree/main/content"
+  Text: "Suggest Changes"
+  appendFilePath: true
+---
 
-**Date:** 2024-12-21T20:53:29+07:00  
-**Draft:** true  
+Kubernetes is an open-source platform for automating containerized applications' deployment, scaling, and management. It simplifies the operations and orchestration of containers, providing robust solutions for managing microservices.
 
-## Introduction
+In this post, we will explore the basic concepts of Kubernetes, including Pods, Nodes, Deployments, and Services, and show you how to set up your first Kubernetes cluster.
 
-In this guide, I will walk you through setting up a Kubernetes (K8s) cluster using `kubeadm`, a tool that simplifies the process of creating Kubernetes clusters. This approach is ideal for those who want to manually set up their clusters with full control over the environment.
-
-## Prerequisites
-
-Before you begin, ensure the following:
-
-- **Two or more nodes:** You will need at least one master node and one worker node. These can be physical or virtual machines.
-- **Linux-based OS:** Ubuntu 20.04 or CentOS 7/8 is preferred for compatibility.
-- **Root/Sudo privileges:** Ensure you have root or sudo privileges on all nodes.
-- **Swap is disabled:** Kubernetes recommends disabling swap on all nodes.
-- **Firewall settings:** Allow communication between the nodes over specific ports (e.g., 6443, 10250, 10251, 10252, etc.).
-
-## Step 1: Prepare the Nodes
-
-### 1.1 Update the System
-
-On all nodes (master and worker), run the following commands to update the system:
-
-```bash
-sudo apt update && sudo apt upgrade -y
-```
-### 1.2 Install required packages:
-```bash
-sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-```
-
+Stay tuned for upcoming posts on more advanced Kubernetes features and best practices.
