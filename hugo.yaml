@@ -18,7 +18,7 @@ params:
   description: "Blog sharing insights and tutorials on DevOps, automation, and infrastructure."
   keywords: [DevOps, Automation, Infrastructure, Tutorials, Blockchain, Hyperledger, Web3]
   author: "Thanhlp"
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: [""]
   DateFormat: "December 22, 2024"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -54,23 +54,27 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
-    title: "Thanhlp's DevOps Blog"
-    subtitle: "Sharing DevOps and Blockchain Knowledge"
-    imageUrl: "assets/avarta_profile.png.jpg"
+    enabled: true
+    title: PaperMod
+    imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+    imageTitle: ProfileMode image
     imageWidth: 120
     imageHeight: 120
-    imageTitle: "Thanhlp's Profile Image"
+    subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
     buttons:
-      - name: "Posts"
-        url: /posts
-      - name: "Tags"
-        url: /tags
+    - name: Blog
+      url: /posts
+    - name: Profile Mode
+      url: "http://lephuocthanh.id.vn"
 
+    
   # home-info mode
   homeInfoParams:
     Title: "Welcome to Thanhlp's DevOps Blog \U0001F44B"
-    Content: "Explore tutorials and insights on DevOps and automation."
+    Content: >
+      👋 Welcome to Thanhlp's DevOps and Blockchain Blog! 
+      Explore an exciting fusion of DevOps and blockchain insights, tutorials, and cutting-edge technologies—all presented with the elegance of Hugo's PaperMod theme. 
+      Let's innovate together! 
 
   socialIcons:
     - name: "github"
