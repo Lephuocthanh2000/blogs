@@ -1,8 +1,8 @@
 ---
-title: "Kubernetes Seri"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
+title: "Kubernetes Serie"
+date:  {{ .Lastmod }}
+weight: 1
+aliases: ["/kubernetes"]
 tags: ["K8s","kubernetes"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors

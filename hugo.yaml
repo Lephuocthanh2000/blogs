@@ -38,6 +38,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  enableGitInfo : true
 
   assets:
     favicon: "<link / abs url>"
