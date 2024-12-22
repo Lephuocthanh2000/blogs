@@ -1,7 +1,6 @@
 ---
 title: "Kubernetes Serie"
-date:  {{ .Lastmod }}
-weight: 1
+date:  "22/12/2025"
 aliases: ["/kubernetes"]
 tags: ["K8s","kubernetes"]
 author: "Me"

@@ -16,10 +16,10 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Thanhlp's DevOps Blog"
   description: "Blog sharing insights and tutorials on DevOps, automation, and infrastructure."
-  keywords: [DevOps, Automation, Infrastructure, Tutorials, PaperMod]
+  keywords: [DevOps, Automation, Infrastructure, Tutorials, Blockchain, Hyperledger, Web3]
   author: "Thanhlp"
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "December 22, 2024"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -54,10 +54,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: "Thanhlp's DevOps Blog"
-    subtitle: "Sharing DevOps Knowledge"
-    imageUrl: "<img location>"
+    subtitle: "Sharing DevOps and Blockchain Knowledge"
+    imageUrl: "assets/avarta_profile.png.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: "Thanhlp's Profile Image"
@@ -73,12 +73,13 @@ params:
     Content: "Explore tutorials and insights on DevOps and automation."
 
   socialIcons:
-    - name: "x"
-      url: "https://x.com/"
-    - name: "stackoverflow"
-      url: "https://stackoverflow.com"
     - name: "github"
-      url: "https://github.com/thanhlp"
+      url: "https://github.com/lephuocthanh2000"
+    - name: "x"
+      url: "https://x.com/lephuocthanh200"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/lephuocthanh2212/"
+
 
   analytics:
     google:
@@ -112,16 +113,20 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: about
+      name: About
+      url: https://lephuocthanh.id.vn
       weight: 30
 
 pygmentsUseClasses: true
