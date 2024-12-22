@@ -1,4 +1,23 @@
-baseURL = 'https://blog.lephuocthanh.id.vn/'
-languageCode = 'en-us'
-title = 'Le Phuoc Thanh Devops Blog'
-theme = 'ananke'
+baseURL = "https://blogs.lephuocthanh.id.vn/"
+languageCode = "en-us"
+title = "My DevOps Blog"
+theme = "PaperMod"
+
+[params]
+  # Enable this to use a clean, minimal layout
+  themeStyle = "light"
+  # Set your social links
+  socialIcons = true
+  github = "https://github.com/lephuocthanh2000"
+  twitter = "https://twitter.com/yourusername"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2

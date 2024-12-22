@@ -3,13 +3,7 @@ name: Deploy Hugo site to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  # Chạy workflow khi có push vào nhánh main
   push:
-    branches:
-      - main
-
-  # Chạy workflow khi có pull request nhắm vào nhánh main
-  pull_request:
     branches:
       - main
   # Allows you to run this workflow manually from the Actions tab
