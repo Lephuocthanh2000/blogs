@@ -10,7 +10,9 @@ theme = "PaperMod"
   socialIcons = true
   github = "https://github.com/lephuocthanh2000"
   twitter = "https://twitter.com/yourusername"
-
+  disableBreadcrumb = true
+  disableToc = false
+  enableSocialIcons = true
 [menu]
   [[menu.main]]
     name = "Home"
